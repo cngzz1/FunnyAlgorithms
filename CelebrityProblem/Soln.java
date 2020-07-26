@@ -11,7 +11,7 @@ class Celebrity
                 st.push(i);
             
         }
-        //pop 2 chack status of matrix
+        //pop 2 check status of matrix
         while(st.size()!=1)
         {
         int a=st.pop();
@@ -26,7 +26,7 @@ class Celebrity
         }    
         }
         int c=st.pop();
-        //checking the last remaining person on the stack eleigible to be a celebrity
+        //checking the last remaining person on the stack eligible to be a celebrity
         for(int j=0;j<n;j++)
         {
             if(c!=j&&(m[c][j]==1||m[j][c]!=1))
