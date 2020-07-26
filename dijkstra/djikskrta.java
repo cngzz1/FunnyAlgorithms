@@ -28,7 +28,7 @@ class ShortestPath {
 			System.out.println(i + " tt " + dist[i]); 
 	} 
 
-	// Funtion that implements Dijkstra's single source shortest path 
+	// Function that implements Dijkstra's single source shortest path 
 	// algorithm for a graph represented using adjacency matrix 
 	// representation 
 	void dijkstra(int graph[][], int src) 
