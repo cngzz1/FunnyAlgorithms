@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Robot {
 
-	// Questions
+	// Asks questions to test if the user is a robot
 	private static final String[] questions = new String[] { "Ready to know if you are a robot?\n", "What is 2+2?\n",
 			"Good to know that you know basic math, but lets get real...\n",
-			"What is the answer of the universe, life and everything?\n",
+			"What is the answer to the universe, life and everything?\n",
 			"I want to believe that you are not a robot. Last Question...\n",
 			"What is the key? Only robots would know\n" };
 
