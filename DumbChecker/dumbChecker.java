@@ -15,7 +15,7 @@ public class dumbChecker {
 		
 			int random = (int)(Math.random() * 10 + 1);
 			
-			//Doesn't matter what user type.percentage also show accourding to random number
+			//Doesn't matter what user type.percentage also show according to random number
 			System.out.println("You are "+random*10 +"% dumb!");
 			
 		}catch(Exception e){
