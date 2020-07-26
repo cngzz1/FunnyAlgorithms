@@ -1,7 +1,9 @@
 /*
   Author: grabartley
   
-  This algorithm is funny because no matter what positive integer it is given, it will always reach 1. Each term is obtained from the previous term as follows: if the previous term is even, the next term is one half the previous term. If the previous term is odd, the next term is 3 times the previous term plus 1.
+  This algorithm is funny because no matter what positive integer is given, it will always reach 1.
+  Each term is obtained from the previous term as follows: if the previous term is even, the next term
+  is one half of the previous term. If the previous term is odd, the next term is 3 times the previous term plus 1.
 */
 import java.util.Scanner;
 
