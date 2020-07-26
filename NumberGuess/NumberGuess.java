@@ -6,8 +6,8 @@ public class ShuffleSort
 	private static Random rand = new Random();
 
 	/*
-	 * We have to guess the number that lies between 1 and 100. If you guess right...you win, else
-	 * you loose. You have 5 tries.
+	 * You have to guess for an integer between 1 and 100. If you guess correctly...you win, else
+	 * you lose. You have 5 tries.
 	 */
 
 	private static Scanner scanner = new Scanner(System.in);
