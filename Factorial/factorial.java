@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*This a example of Factorization*/
+/*This an example of Factorization*/
 public class Main {
     public static long factorial(int n){
         long accumulator = 1;
@@ -31,7 +31,7 @@ public class Main {
                 int num = Integer.parseInt(input);
                 System.out.println("The factorial of " + num + " is " + factorial(num));
             }catch(NumberFormatException e){
-                System.out.println("What happened there ?");
+                System.out.println("What happened there?");
             }
         }else {
             System.out.println("The input was not a number");
