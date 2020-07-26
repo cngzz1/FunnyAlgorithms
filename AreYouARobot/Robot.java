@@ -42,7 +42,7 @@ public class Robot {
 			if (a2 == 42) {
 				delayPrint(questions[4]);
 				final String a3 = delayInput(questions[5]);
-				if (a3 == "i'm a robot") {
+				if (a3 == "I'm a robot") {
 					delayPrint("You truly are a robot\n");
 				} else {
 					System.out.println("You aren't a robot\n");
